@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato Devaria</title>
+</head>
+<body>
+    <header>
+        <h1>Fale com a Devaria através desta página</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="professores.html">Professores</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Para entrar em contato, preencha os campos abaixo e clique em Enviar!</h2>
+        <section>
+            <form action="index.html">
+                <p>
+                    <label for="">Nome: </label><input type="text" name="Nome" maxlength="70" />
+                </p>
+                <p>
+                    <label for="">E-mail: </label><input type="text" name="Email" maxlength="150" />
+                </p>
+                <p>
+                    <label for="">Comentário</label>
+                    <textarea name="Comentario" id="" cols="50" rows="4"></textarea>
+                </p>
+                <p>
+                    <label for="">Sexo: </label>
+                    <input type="radio" name="Sexo" /><label for="">Masculino</label>
+                    <input type="radio" name="Sexo" /><label for="">Feminino</label>
+                </p>
+                <p>
+                    <label for="">Aonde nos conheceu?</label>
+                    <select name="Conheceu" id="">
+                        <option selected>YouTube</option>
+                        <option>Google</option>
+                        <option>Amigos</option>
+                        <option>Outros</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="Novidades" />
+                    <label for="">Aceito receber e-mails de novidades</label>
+                </p>
+                <p>
+                    <input type="submit" name="Enviar" value="Enviar" />
+                    <input type="reset" name="Limpar" value="Limpar" />
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <span>felipe@dev.com</span>
+            <span>Visite meu Likedin!</span>
+        </section>
+    </footer>
+</body>
+</html>
